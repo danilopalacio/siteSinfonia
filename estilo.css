@@ -46,9 +46,9 @@ p{
     background-color: #8FBC8F;
 }
 #casa{
-    display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto;
+    border: 8px inset #5f6632;
 }
 #prof{
     display: block;
