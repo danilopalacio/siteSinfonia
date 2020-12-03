@@ -1,6 +1,6 @@
 Body{
     background-color : white;
-
+    border: none;
 }
 .container{
     background-color: white;
@@ -42,21 +42,23 @@ p{
 #fundo{
     background-color: white;
 }
-//*#carousel {
-    background-color: #8FBC8F;
-}*//
 
 #casa{
+    border: 8px inset #5f6632;
     margin-left: auto;
     margin-right: auto;
-    border: 8px inset #5f6632;
 }
 
+#carousel{
+    margin-top: 10px;
+}
+    
+}
 #prof{
     display: block;
     margin-left: auto;
     margin-right: auto;
- 
+    
 } 
  .center {
 display: block;
@@ -86,4 +88,3 @@ width: 50%;
     height: 200px;
     margin-top: -330px;
 }
-
