@@ -88,3 +88,8 @@ width: 50%;
     height: 200px;
     margin-top: -330px;
 }
+
+#navbar ul li a:hover{
+    color:#e44405;
+    
+}
