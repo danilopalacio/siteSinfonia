@@ -1,0 +1,215 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    justify-content: center; 
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    align-items: center;
+    text-align: center;
+    color: #273428;
+    margin: 0;
+    width: 100vw;
+}
+
+h3{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: bold;
+    text-align: center;
+    color: #273428;
+}
+
+p{
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 54px;
+    align-items: center;
+    color:#7BA895;
+}
+
+hr{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-color: #273428;
+}
+
+.detalhe{
+    display: flex;
+    position: relative;
+}
+
+.detalheEsquerda{
+    position: relative;
+    display: inline-block;
+    width: 50vw;
+    margin-left: 22vw;
+}
+
+.detalheDireita{
+    position: absolute;
+    display: inline-block;
+    width: 50vw;
+    margin-left: 55vw;
+}
+
+.claro{
+    z-index: 99;
+    margin-left: 1vw;
+    margin-top: -19px;
+}
+
+.claro img{
+    width: 23vw;
+}
+
+.escuro{
+    z-index: 50;
+}
+
+.escuro img{
+    width: 23vw;
+}
+
+.detalheDireita .claro{
+    margin-left: -1vw;
+}
+
+.principal{
+    display: block; 
+    position: relative;
+    margin-top: 1vw;
+    width: 100vw;
+}
+
+.principal img{
+    margin-left: 42.5vw;
+    width: 15vw;
+    position: relative;
+}
+
+.principal h3{
+    width: 100%;
+}
+
+.textoEsquerda{
+    display: flex;
+    width: 80vw;
+    margin-left: 7vw;
+    margin-right: 6vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoDireita{
+    display: flex;
+    width: 80vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    width: 48vw;
+    padding: 1vw;
+}
+
+.imagem{
+    width: 32vw; 
+    padding: 1vw;  
+}
+
+.imagem img{
+    width: 100%;
+}
+
+.final{
+    margin-left: 10vw;
+    width: 80vw;
+    text-align: center;
+}
+
+.textoGrande p{
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+}
+
+
+@media only screen and (max-device-width: 800px) {
+    h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    h3{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .principal img{
+        width: 50vw;
+        margin-left: 25vw;
+    }
+
+    .principal h3{
+        margin-left: 5vw;
+        width: 90vw;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .textoEsquerda{
+        display:flex;
+        flex-direction: column;
+        margin-left:5vw;
+    }
+
+    .textoDireita{
+        display:flex;
+        margin-left:5vw;
+        flex-direction: column;
+    }
+
+    .imagem{
+        display: block;   
+        width: 80vw;
+        order: 2;
+    }
+
+    .imagem img{
+        width: 80vw;
+        
+    }
+
+    .texto{
+        display: block;
+        width: 80vw;
+        margin:0;
+        order: 3;
+    }
+
+    .textoGrande p{
+        font-size: 24px;
+        line-height: 28px;
+        order:3;
+    }
+}
+
