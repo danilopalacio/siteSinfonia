@@ -71,6 +71,11 @@ width: 50%;
     margin-left: auto;
     width: 700px;
 }
+
+.li{
+    margin-top: 10px;
+
+}
 .btn-1{
     background-color: black;
     color: white;
@@ -91,7 +96,7 @@ width: 50%;
 .Container{
     text-align: center;
     color: #273428;
-
+    
 }
 .btn-3{
     margin-left: 420px;
@@ -169,4 +174,10 @@ width: 50%;
 #navbar ul li a:hover{
     color:#e44405;
     
+}
+
+.espaco{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: blue;
 }
