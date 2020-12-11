@@ -6,13 +6,13 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    
 }
 
 h1{
     justify-content: center; 
-    font-weight: bold;
-    font-size: 64px;
+    
+    font-size: 50px;
     line-height: 96px;
     align-items: center;
     text-align: center;
@@ -24,7 +24,7 @@ h1{
 h3{
     font-size: 36px;
     line-height: 54px;
-    font-weight: bold;
+   
     text-align: center;
     color: #273428;
 }
