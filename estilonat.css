@@ -181,3 +181,13 @@ width: 50%;
     padding-bottom: 0.5rem;
     color: blue;
 }
+
+@media only screen and (max-device-width: 800px) {
+    minhaPagina{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    espaco{
+        font-size: 24px;
+        line-height: 28px;
+    }
